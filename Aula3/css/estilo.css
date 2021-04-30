@@ -1,0 +1,52 @@
+/*Arquivo CSS*/
+
+/*seletor de tag*/
+body {
+	background-color:#000;
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	text-align:justify;
+}
+
+section {
+	width:90%;
+	margin:auto;
+}
+
+header {
+	width:100%;
+	height:150px;
+	background:#800000;
+}
+
+nav {
+	width:100%;
+	height:50px;
+	background:#FF0000;
+}
+
+aside {
+	width:30%;
+	height:400px;
+	background:#FF4500;
+	float:left;
+}
+
+main {
+	width:70%;
+	height:400px;
+	background-color:#fff;
+	color:#ccc;
+	float:right;
+}
+
+footer {
+	width:100%;
+	height:50px;
+	background-color:#FF8C00;
+	clear:both;
+}
+	
+	
+	
