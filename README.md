@@ -205,3 +205,75 @@ _____________________________________________
 
 https://docs.google.com/document/d/18NdWn9T_-ZcX-q6WPdjVb9_u0qHBRMBrdOxbHBOidYg/edit
 
+_____________________________________________
+
+# Aula  II e III -  Desenvolvimento Web I
+Elementos Semânticos
+Tipos de Layouts
+Introdução ao CSS
+____________________________________________________________________________________________
+Fontes:
+https://www.nic.br/
+https://cgi.br/
+https://www.w3c.br/Sobre/ConhecendoW3C
+https://www.w3c.br/Home/WebHome/
+https://www.w3schools.com/tags/tag_meta.asp
+https://www.devmedia.com.br/html-meta-tags-entendendo-o-uso-de-meta-tags/30328
+http://cristinajungdesign.blogspot.com/search?q=elementos+sem%C3%A2nticos
+________________________________________________________________________________________________
+
+Elementos Semânticos HTML 5
+
+O objetivo do HTML5 é indicar que tipo de informação a página está exibindo. É como quando lemos um livro, pois conseguimos perceber as diferenças entre título, subtítulos e textos.
+
+Com as versões anteriores do HTML, nós conseguíamos marcar diversos elementos do layout, estruturando a página de forma que as informações ficassem em locais claros e de fácil visualização e acesso. Este é o conceito da acessibilidade: operar com um layout onde todos, não importando as suas condições físicas consigam acessar o conteúdo da Web.
+
+O HTML5 trouxe uma série de elementos que vão facilitar a construção do layout com a utilização de poderosos elementos que irão facilitar a declaração, pois operam no nível semântico, o que deixa tudo muito mais fácil e atrativo!! Venhamos e convenhamos, declarar uma DIV com ID de geral, ou qualquer outro nome é a mesma coisa que eu dizer para quem está começando HTML que entenda os caracteres: *&$%¨@# como uma expressão conjunta.
+
+
+
+Quando falamos em Web Semântica, significa dizer que estamos transformando a nossa Web em significados que são importantes para nós como pessoas!! Como a missão do W3C é conduzir a WWW para que atinja todo o seu potencial, desenvolvendo protocolos e diretrizes que garantam seu crescimento de longo prazo!
+
+Nada mais justo então, a criação de tags semânticas para nós desenvolvedores web, que facilitam e agilizam a criação de websites com templates munidas de interfaces claras e de rápido entendimento!
+
+Até o XHTML, as DIVs eram as stars dos templates, porém, a grande mudança para a versão 5 é a criação de elementos estruturais associados diretamente ao seu significado aplicado.
+
+
+Os elementos semânticos:
+
+
+Section, Nav, Article, Aside, Hgroup, Header, Footer, Main, Time e Mark.
+
+
+
+Tag section: tag que define uma nova seção genérica para o documento. Uma página web pode ser dividida em diversas seções e com destaque para cada uma delas.
+Exemplo de uso:
+
+
+De todos os elementos apresentados até então, o elemento section é o que possui menor significado semântico. Ele pode conter header e article e sua principal função e dividir o conteúdo em blocos.
+
+Tag nav: elemento nav representa uma seção de páginas que contém links para outras partes do website.
+Exemplo de uso:
+
+
+![Sem título](https://user-images.githubusercontent.com/17149877/116636955-f34b6780-a938-11eb-9461-36501c9e4b2c.png)
+
+Tag aside: representa um bloco de conteúdo que referencia o conteúdo que envolve este elemento. Muito utilizado em elementos de sidebars.
+Exemplo de uso:
+
+![Sem título](https://user-images.githubusercontent.com/17149877/116637006-19710780-a939-11eb-87f1-1222d9fb1806.png)
+
+Tag header: define o elemento que pode ser usado no topo da página
+Exemplo de uso:
+
+![Sem título](https://user-images.githubusercontent.com/17149877/116637069-4d4c2d00-a939-11eb-8f6d-d6471f4acf25.png)
+
+Tag footer: define o rodapé da página web. É o último elemento antes de fechar a tag HTML.
+Exemplo de uso:
+
+![Sem título](https://user-images.githubusercontent.com/17149877/116637163-8a182400-a939-11eb-903b-afb9becf94d7.png)
+
+______________________________________________________________
+## Referências
+
+https://docs.google.com/document/d/18xnG_SQrTP_1o7uF8pnegP8zGff7cZT8cdkkIM03pDc/edit
