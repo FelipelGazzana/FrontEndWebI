@@ -277,3 +277,73 @@ ______________________________________________________________
 ## Referências
 
 https://docs.google.com/document/d/18xnG_SQrTP_1o7uF8pnegP8zGff7cZT8cdkkIM03pDc/edit
+
+# Aula IV de Desenvolvimento Web I
+Continuação de CSS
+Sintaxe de CSS
+Propriedades e valores
+Layouts de WebSites
+Quais os tipos de layout
+______________________________________________________________________________________________
+Fontes:
+http://cristinajungdesign.blogspot.com/search?q=Cascading+style+sheet 
+https://www.w3schools.com/css/ 
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics 
+______________________________________________________________________________________________
+CSS - Cascading Style Sheet
+
+Maujor em seu site, sabiamente define o CSS como: “CSS é a sigla em inglês para Cascading Style Sheet que em português foi traduzido para folha de estilo em cascata e é definida como:  Folha de estilo em cascata é um mecanismo simples para adicionar estilos (p.ex., fontes, cores, espaçamentos) aos documentos Web.”
+
+As principais versões do CSS são a 2.1 marcado por seletores funcionais e o CSS3 pela agregação de efeitos que até então conseguíamos somente por intermédio de imagens. Desde o surgimento do CSS, houve a “separação” do conteúdo de marcação que necessita ser interpretado pelo navegador e o conteúdo de formatação que é feito por meio do CSS.
+Em um primeiro tópico, iremos revisar a questão dos seletores, das propriedades e seus valores, pois estes 3 itens são de extrema importância no desenvolvimento da formatação.
+
+- seletor: um seletor em CSS significa associar uma formatação a um complemento específico. Por exemplo, se na formatação que estamos fazendo, significa alterar a estrutura de um texto, como fonte, tamanho, alinhamento ou cor; podemos definir um seletor de classe. Um seletor de Classe combina, por assim dizer, com qualquer componente HTML. Se, na nossa formatação, desejamos formatar um título para um determinado texto, podemos associar a nossa formatação ao <h1></h1> - desta forma, utilizaremos um seletor de tag. Quando necessitamos construir a formatação para o layout de uma página, podemos usar um seletor de ID, geralmente voltado para DIVs de estruturação de layout.
+
+- seletor descendente: uma das versatilidades do CSS é a utilização do seletor descendente. Este seletor,  ou seletor contextual, é aquele que se refere a uma ocorrência especifica de um complemento ou elemento HTML. A sintaxe para definir um seletor descendente é uma string formada por seletores individuais separados por um espaço em branco. A regra é aplicável ao último elemento da string (que satisfaz a sequência da string ). Os exemplos abaixo, de acordo com Maujor, esclarecem os seletores descendentes.
+
+p span {color:#f00;} /* aplica-se a span dentro de um parágrafo. .Não vale para span dentro de um h2 por exemplo. */
+ul li a {font-size:12px;} /* aplica-se a um link dentro de um .item de lista de uma lista não ordenada.*/
+               
+- propriedade: propriedade de CSS é a característica a ser formatada e/ou especificada de um componente HTML, por exemplo, background-color, text-align, color, etc.
+
+- valor: é o valor relacionado que a propriedade irá receber, como a cor, por exemplo.
+
+As sintaxes, as declarações e as vinculações do CSS – revisando.
+As vinculações sempre irão obedecer a estrutura do nosso projeto de website. Um exemplo prático, é a vinculação do CSS, são definidas a partir de:
+
+CSS - Cascading Style Sheet - Folha de Estilo em Cascata
+Criar estilizações nos arquivos HTML
+Declaração do CSS:
+Declaração interna, entre as tags <head> e </head>;
+Declaração externa, entre as tags <head> e </head>, porém é compilado em link buscando o arquivo com extensão .css;
+Declaração inline: entra dentro da tag do elemento html;
+
+
+Qual a sintaxe base do CSS?
+
+seletor {propriedade:valor;}
+Tipos de Seletores
+
+tag: recebe a tag como apontador para a estilização.
+        body {background-color:pink;}
+
+classe: seletor genérico e pode ser repetido inúmeras vezes dentro de um documento HTML.
+       .titulo{font-size:24px; color:#fff; text-align:center;}
+
+ID: é um id que serve para definir estruturas de layout, não deve ser repetido em um mesmo arquivo HTML e sua função também inclui a vinculação e referência entre HTML, Forms, PHP e demais linguagens que são utilizadas.
+                #topo {width:100%; height:auto; padding:1%;}
+Layouts no HTML + CSS
+Layout fluido (líquido) ou o uso de Layout Responsivo
+
+Partindo do que trabalhamos até agora, a estruturação dos Layouts de Websites são feitos em sua grande maioria com CSS.
+Recapitulando: CSS - Cascading Style Sheet, são folhas de estilo responsáveis pela formatação de textos, tabelas, imagens, fontes, etc. Por meio do CSS foi permitido aos desenvolvedores a separação do que precisava ser instrução de marcação para o navegador e o que seria instrução de formatação.
+
+O desenvolvimento e crescimento do CSS permitiu que fosse criados e definidos tipos de layout bem importantes na construção de Websites.
+
+Layout Líquido ou Fluido
+
+Técnica que permite desenvolver sites que se adaptem à resolução e ao tamanho de monitor. Na verdade, a utilização desta técnica é definida pela utilização de unidades medidas adaptáveis e não absolutas,  como é o caso da utilização de pixels como unidade de medida. 
+A base para a construção de um layout assim é usar valores percentuais ao invés de absolutos para as tags que delimitam as áreas do site – geralmente as DIVs, ou seja, ao invés de declarar a largura do site com valores absolutos em pixels (px), usamos valores proporcionais em percentual (%).
+Desta forma o site e sua estrutura de DIVs ocuparão uma área relativa ao tamanho da janela do navegador do usuário, não importando o tamanho do monitor utilizado.
+
+
