@@ -456,3 +456,43 @@ Quando definido o conjunto de breakpoints de um layout responsivo será definido
 ______________________________________________________________________________________
 ##### Referencias
 https://docs.google.com/document/d/1bmDfwGpuITNMNtc2aLYkqFA771nalE5LMFUpYcQOiWk/edit#
+
+#Meta Tags
+
+A <meta> tag define os metadados sobre um documento HTML. Metadados são dados (informações) sobre dados declarados no documento HTML.
+As <meta> tags sempre são declaradas entre os elementos <head> e </head> e geralmente são usadas para especificar conjunto de caracteres, descrição da página, palavras-chave, autor do documento e configurações da janela de visualização.
+
+Os metadados não serão exibidos na página, mas podem ser analisados ​​por máquina.
+
+Os metadados são usados ​​por navegadores (como exibir conteúdo ou recarregar página), mecanismos de pesquisa (palavras-chave) e outros serviços da web.
+
+Existe um método para permitir que os web designers assumam o controle sobre a janela de exibição (a área visível do usuário de uma página da web), através da <meta>tag 
+
+## Tipos de Meta Tags
+
+* HTTP-EQUIV: O atributo HTTP-EQUIV serve para controlar as ações do browser e também especificam melhor as informações, sendo que estas tem efeito equivalente quando são utilizadas diretamente na tag HTTP do cabeçalho.
+* AME:  Meta tags com o atributo “name” são utilizadas quando os tipos não correspondem com o HTTP, ou seja, aquilo que não se adequar ao HTTP-EQUIV é utilizado no NAME. Mas alguns buscadores não chegam a fazer distinção sobre esses tipos de tags, por exemplo: A meta tag “keywords” pode ser utilizada tanto com o tipo “http-equiv” como o tipo “name”.
+* DUBLIN CORE: Com o aumento da complexidade e necessidade de customização de Meta Tags, foi idealizado e criado uma linguagem de meta tags própria, chamado de Dublin Core, que permite maior flexibilidade aos desenvolvedores. 
+
+![Sem título](https://user-images.githubusercontent.com/17149877/117826581-a45dd600-b246-11eb-8cc8-9a91ceb641f8.png)
+
+## Atributos e Especificações
+Estes são os atributos podemos utilizar junto a elas:
+
+* AUTHOR: Serve para identificar qual o nome do autor da página, geralmente o desenvolver ou a empresa desenvolvedora. Essa tag é utilizado com o tipo “name”, ou seja, você terá que definir como na name=”author”.
+* DESCRIPTION: Contém uma descrição/resumo sobre a página, utilizada por alguns mecanismos de busca
+* KEYWORDS: As palavras-chaves são utilizadas para ajudar na indexação da sua página pelos motores de busca, funcionam como uma categorização do conteúdo.
+* ROBOTS: Especifica informações para que o robô possa indexar sua página, suporta os seguintes valores:
+All: Valor default, significa vazio, o robô de busca não recebe nenhuma informação.
+Index: Os robôs de busca podem incluir a página normalmente.
+Follow: Robôs podem indexar a página e ainda seguir os links para outras páginas que ela contém.
+NoIndex: Os links podem ser seguidos, mas a página não é indexada.
+NoFollow: A página é indexada, mas os links não são seguidos.
+None: Os robôs podem ignorar a página.
+NoArchive (Apenas Google): A página não é arquivada.
+
+____________________________________________________________________________________________
+
+## Referências
+
+https://docs.google.com/document/d/1bmDfwGpuITNMNtc2aLYkqFA771nalE5LMFUpYcQOiWk/edit#
