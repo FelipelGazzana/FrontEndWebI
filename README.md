@@ -345,5 +345,114 @@ Layout Líquido ou Fluido
 Técnica que permite desenvolver sites que se adaptem à resolução e ao tamanho de monitor. Na verdade, a utilização desta técnica é definida pela utilização de unidades medidas adaptáveis e não absolutas,  como é o caso da utilização de pixels como unidade de medida. 
 A base para a construção de um layout assim é usar valores percentuais ao invés de absolutos para as tags que delimitam as áreas do site – geralmente as DIVs, ou seja, ao invés de declarar a largura do site com valores absolutos em pixels (px), usamos valores proporcionais em percentual (%).
 Desta forma o site e sua estrutura de DIVs ocuparão uma área relativa ao tamanho da janela do navegador do usuário, não importando o tamanho do monitor utilizado.
+____________________________________________________________________________________
+# Aula VI - Desenvolvimento Web I
+Layouts de WebSites
+Quais os tipos de layout
+Responsividade
+Meta Tags
+_________________________________________________________________________________________________
+Fontes:
+http://cristinajungdesign.blogspot.com/
+http://cristinajungdesign.blogspot.com/search?q=layout
+https://www.chiefofdesign.com.br/design-responsivo/design-responsivo-versus-design-com-layout-fluido/
+http://cristinajungdesign.blogspot.com/2018/06/aula-03-layouts-responsivos.html
+https://www.w3.org/Style/Examples/007/units.pt_BR.html 
+_________________________________________________________________________________________________
+*Layout fluido (líquido) ou o uso de Layout Responsivo*
+
+Partindo do que trabalhamos até agora, a estruturação dos Layouts de Websites são feitos em sua grande maioria com CSS.
+
+Recapitulando: CSS - Cascading Style Sheet, são folhas de estilo responsáveis pela formatação de textos, tabelas, imagens, fontes, etc. Por meio do CSS foi permitido aos desenvolvedores a separação do que precisava ser instrução de marcação para o navegador e o que seria instrução de formatação.
+
+O desenvolvimento e crescimento do CSS permitiu que fosse criados e definidos tipos de layout bem importantes na construção de Websites.
+
+*Layout Líquido ou Fluido*
+Técnica que permite desenvolver sites que se adaptem à resolução e ao tamanho de monitor. Na verdade, a utilização desta técnica é definida pela utilização de unidades medidas adaptáveis e não absolutas,  como é o caso da utilização de pixels como unidade de medida. 
+A base para a construção de um layout assim é usar valores percentuais ao invés de absolutos para as tags que delimitam as áreas do site – geralmente as DIVs, ou seja, ao invés de declarar a largura do site com valores absolutos em pixels (px), usamos valores proporcionais em percentual (%).
+Desta forma o site e sua estrutura de DIVs ocuparão uma área relativa ao tamanho da janela do navegador do usuário, não importando o tamanho do monitor utilizado.
 
 
+##Responsividade - Layouts Responsivos
+Responsividade não é uma técnica, é um conceito de desenvolvimento de aplicações que leva a uma técnica. 
+
+## O que é design responsivo ?
+
+Design Responsivo é uma técnica de estruturação HTML e CSS, que consiste em adaptar o site ao browser e ao dispositivo do usuário sem que seja necessário definir várias folhas de estilos específicas para cada resolução, ou seja, é um tipo de design onde o layout fica fluído e variante de acordo com a resolução do usuário.
+Esse tipo de design responsivo teve origem em 2010 com o objetivo de melhorar a experiência de navegação dos usuários de páginas web.
+
+## Por que devemos usar Design Responsivo?
+
+Nos tempos atuais nós sabemos que a quantidade de dispositivos novos com acesso à internet que surgiram, além dos desktops e notebooks, é imensa, como smartphones, tablets, câmeras fotográficas e até mesmo geladeiras.
+Pensando nisso, os desenvolvedores precisam ter uma preocupação muito maior de tornar seus websites disponíveis para esse público, é aí então que surge a importância de um website ser bem visto em qualquer dispositivo, independente da sua resolução de tela.
+Mais do que uma simples tendência de design, o design responsivo é um conjunto de ferramentas e técnicas modernas que definem como o conteúdo será exibido ao usuário. (Fonte: DEVMEDIA)
+
+![Sem título](https://user-images.githubusercontent.com/17149877/117823326-ba1dcc00-b243-11eb-841e-4207a6b82c09.png)
+
+## O Design fluído (líquido) é uma técnica de desenvolvimento
+ 
+Ele utiliza medidas relativas para que o layout de um site possa aumentar ou diminuir de tamanho de acordo com o tamanho da área de visualização.
+Ou seja, você pode ter todo seu conteúdo adaptado a uma resolução de mobile, por exemplo, e mesmo assim ele pode não ser responsivo. 
+
+*Por quê?*
+Porque imagine que o Design Fluído de um Blog de Viagens apenas “diminua” o site para que ele caiba em uma resolução mobile X. O sidebar desse Blog vai encolher, vai ocupar digamos que 40% da pequena tela do smartphone, e o conteúdo irá ocupar os outros 60%. Neste momento, como desenvolvedores , pecamos na experiência de uso, proporcionando uma péssima experiência.
+ 
+O que o Design Responsivo faria é adaptar esse conteúdo a uma melhor experiência, transformando o sidebar em um menu de navegação, por exemplo, e liberando espaço para o mais importante: o conteúdo do Blog.
+ 
+O Design Responsivo não simplesmente encolhe o conteúdo, mas adapta os elementos a fim de entregar ao usuário o melhor conteúdo e navegação para aquele cenário.
+ 
+Para colocar em prática esse conceito é preciso de técnica, e uma das melhores técnicas é o Design Responsivo Fluído: ele é Responsivo, ou seja, garante a melhor experiência ao usuário, e utiliza a técnica de Design Fluído na construção da sua base em HTML e CSS para garantir que o conteúdo se torne flexível. 
+
+##Overview de Unidades de Medida 
+Fonte: https://www.w3.org/Style/Examples/007/units.pt_BR.html
+
+São elas:
+ 
+em: fontes e largura de elementos
+rem: fontes e largura de elementos
+ex: fontes e largura de elementos
+%: obter o tamanho em % de acordo com o elemento onde ele está contido
+px: pixel: um pixel de tela
+pt: pontos, referente ao  tamanho da fonte
+cm: centímetro
+mm: milímetro
+in: polegadas
+
+![Sem título](https://user-images.githubusercontent.com/17149877/117823893-5942c380-b244-11eb-9900-ac337f7a8f7f.png)
+
+## As Media Type & Querie
+ 
+- Media Queries: começando pelas Medias Type que definem qual tipo de medida devemos utilizar no CSS. Isso tudo por que? Porque o HTML foi criado para ser aberto e portável - traduzindo: ser interpretado por qualquer tipo de dispositivo. Todos sabemos que, para um website ter sucesso efetivamente, ele precisa se adequar aos dispositivos que os usuários acessam o seu conteúdo. 
+ 
+Abaixo segue uma lista das medias que podemos configurar para que nosso website se adapte aos dispositivos e sua navegação.
+
+![Sem título](https://user-images.githubusercontent.com/17149877/117824197-a757c700-b244-11eb-8ffa-4369bccda5a8.png)
+
+## Design Responsivo - Padrões responsivos de layout - CSS3 e Media Queries - Disseminando a Web!!
+
+##### Design Responsivo 
+É um recurso que permite a criação de layouts que fornecem uma maior experiência visual no que diz respeito a acessibilidade e navegabilidade. 
+ 
+Um layout responsivo é, na verdade, de acordo com a Wikipedia, um layout de fácil leitura e navegação com um mínimo de redimensionamento e visionamento, para uma ampla gama de dispositivos (de monitores de computador a telefones celulares)
+
+Um website definido como responsivo adapta sua exibição para o ambiente de visualização usando grades proporcionais e fluídas imagens flexíveis, e media queries CSS3 , uma extensão da regra @media.
+ 
+O conceito de grade fluida (layout fluido) requer que as dimensões dos elementos sejam definidos por unidade relativas como porcentagem, em vez de unidades absolutas como pixels ou pontos.
+ 
+Imagens flexíveis são as que também têm suas dimensões em unidades relativas, de modo a prevenir que escapem de dentro de seu elemento HTML.5
+ 
+Media queries permitem que a página use diferentes regras de estilo CSS com base nas características do dispositivo onde o website está sendo exibido, sendo mais comum a largura de visualização do navegador web.
+
+![Sem título](https://user-images.githubusercontent.com/17149877/117824476-e71eae80-b244-11eb-888a-b936ab0b5aac.png)
+
+## BreakPoints no CSS
+
+São pontos de “quebra” de resolução de tela, ou seja, são as definições dos tamanhos de tela que são usadas para fazer a “troca” do layout.
+Quando definido o conjunto de breakpoints de um layout responsivo será definido como cada elemento do site ou aplicação se comportará.
+É importante sempre começar a definição dos limites dos breakpoints pela técnica que chamamos de Mobile First, ou seja, no CSS, declaramos primeiro as Media Querie que serão direcionadas para os celulares.
+
+![Sem título](https://user-images.githubusercontent.com/17149877/117824842-2f3dd100-b245-11eb-8138-6bd052df1224.png)
+
+______________________________________________________________________________________
+##### Referencias
+https://docs.google.com/document/d/1bmDfwGpuITNMNtc2aLYkqFA771nalE5LMFUpYcQOiWk/edit#
